@@ -1,5 +1,9 @@
 {
-  "name": "nuxt-app",
+  "name": "stomaquest",
+  "author": {
+    "name": "Ryan Vieira",
+    "email": "rdovieira01@gmail.com"
+  },
   "private": true,
   "type": "module",
   "scripts": {
