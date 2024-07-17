@@ -5,7 +5,8 @@
       "quotes": ["error", "single"],
       "arrow-parens": ["error", "always"],
       "comma-dangle": ["error", "always-multiline"],
-      "space-before-function-paren": ["error", "never"]
+      "space-before-function-paren": ["error", "never"],
+      "curly": ["error", "multi-line"]
     },
     "ignorePatterns": ["graphql/genql/**/*"]
   }
