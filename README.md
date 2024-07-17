@@ -1,10 +1,29 @@
-# Nuxt 3 Minimal Starter
+# StomaQuest [APP]
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Tecnologias
 
-## Setup
+- [Nuxt](https://nuxt.com/)
+- [Vue](https://vuejs.org/)
+- [Kinde](https://kinde.com/)
+- [Pinia](https://pinia.vuejs.org/)
 
-Make sure to install the dependencies:
+## Variáveis de ambiente
+
+```bash
+# dev
+NUXT_KINDE_CLIENT_ID=<kinde client id>
+NUXT_KINDE_CLIENT_SECRET=<kinde secret>
+NUXT_KINDE_AUTH_DOMAIN=https://rdvo.kinde.com
+NUXT_KINDE_REDIRECT_URL=http://localhost:3000/api/callback
+NUXT_KINDE_LOGOUT_REDIRECT_URL=http://localhost:3000
+NUXT_KINDE_POST_LOGIN_REDIRECT_URL=http://localhost:3000/edit
+NUXT_KINDE_PASSWORD=<kinde pw>
+API_URL=<worker api url>
+```
+
+## Configuração
+
+Certifique-se de instalar as dependências:
 
 ```bash
 # npm
@@ -38,9 +57,9 @@ yarn dev
 bun run dev
 ```
 
-## Production
+## Produção
 
-Build the application for production:
+Construa a aplicação para produção:
 
 ```bash
 # npm
@@ -56,7 +75,7 @@ yarn build
 bun run build
 ```
 
-Locally preview production build:
+Visualize localmente a versão de produção:
 
 ```bash
 # npm
@@ -72,4 +91,5 @@ yarn preview
 bun run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Confira a [documentação de implantação do nuxt](https://nuxt.com/docs/getting-started/deployment) para mais informações.
+
